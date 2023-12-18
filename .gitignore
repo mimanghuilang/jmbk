@@ -17,3 +17,4 @@ tsconfig.tsbuildinfo
 *.conf
 
 scripts/update.sh
+.history
