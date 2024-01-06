@@ -47,6 +47,7 @@ export const CommentAction = ({ comment, refresh }) => {
         replyUserName: comment.name,
         replyUserEmail: comment.email,
         url: comment.url,
+        avatar: userInfo.avatar || '',
         createByAdmin: true,
       };
 
